@@ -1,10 +1,8 @@
-/* Reset some default styles */
 body, h1, table {
     margin: 0;
     padding: 0;
 }
 
-/* Body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #1e1e2e;
@@ -12,7 +10,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header styles */
 header {
     background: #dd7878;
     color: white;
@@ -24,12 +21,10 @@ header img {
     border-radius: 50%;
 }
 
-/* Main styles */
 main {
     padding: 20px;
 }
 
-/* Table styles */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -47,7 +42,6 @@ th {
     color: white;
 }
 
-/* Button styles */
 button {
     background-color: #dd7878;
     color: white;
@@ -61,6 +55,8 @@ button {
 
 .button-container {
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 54px;
 }
 
 button a {
