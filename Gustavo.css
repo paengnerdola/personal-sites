@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #dd7878;
+    background: #BE1525;
     color: white;
     padding: 20px;
     text-align: center;
@@ -24,6 +24,7 @@ header img {
 main {
     padding: 20px;
 }
+
 
 table {
     width: 100%;
@@ -38,12 +39,12 @@ th, td {
 }
 
 th {
-    background-color: #dd7878;
+    background-color: #BE1525;
     color: white;
 }
 
 button {
-    background-color: #dd7878;
+    background-color: #BE1525;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -51,7 +52,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
     display: inline-block;
-}
+}   
 
 .button-container {
     text-align: center;
@@ -65,5 +66,5 @@ button a {
 }
 
 button:hover {
-    background-color: #eba0ac;
+    background-color: #CF2C3C;
 }
