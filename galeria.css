@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2e;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #b3b3b6;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.gallery img {
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+    transition: transform 0.2s; 
+}
+
+.gallery img:hover {
+    transform: scale(1.1); 
+}
